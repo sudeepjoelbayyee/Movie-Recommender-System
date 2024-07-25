@@ -1,0 +1,13 @@
+prefix=D:/Projects/Machine Learning/Movie Recommender System/mrs/Library
+exec_prefix=D:/Projects/Machine Learning/Movie Recommender System/mrs/Library
+libdir=D:/Projects/Machine Learning/Movie Recommender System/mrs/Library/lib
+sharedlibdir=D:/Projects/Machine Learning/Movie Recommender System/mrs/Library/lib
+includedir=D:/Projects/Machine Learning/Movie Recommender System/mrs/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
